@@ -1,16 +1,10 @@
-body{
+*{
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
-.header{
+header{
     background-color: #1f2937;
-}
-.headermaintext{
-
     color: #f9faf8;
-}
-.headerlinks{
-    
-    color: #f9faf8;
-
 }

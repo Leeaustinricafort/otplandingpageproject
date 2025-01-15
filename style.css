@@ -2,9 +2,25 @@
     font-family: Roboto;
     margin: 0;
     padding: 0;
-}
+} 
+
 
 header{
+    display: flex;
+    padding: 20px;
     background-color: #1f2937;
-    color: #f9faf8;
+    color: #f9faf8 ;
+}
+.logo{width: 40%;
+    font-size: 25px;
+    margin-left: 20%;
+}
+.headerlinks{
+    margin-right: 20%;
+    float: left;
+}
+.headerlinks a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 5px;
 }

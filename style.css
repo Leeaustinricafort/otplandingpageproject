@@ -10,17 +10,28 @@ header{
     padding: 20px;
     background-color: #1f2937;
     color: #f9faf8 ;
+
 }
-.logo{width: 40%;
-    font-size: 25px;
+.logo{
+    width: 3%;
     margin-left: 20%;
 }
 .headerlinks{
+    width: 20%;
+    padding-top: 1%;
     margin-right: 20%;
-    float: left;
+    margin-left: 35%;
+    
 }
 .headerlinks a{
+    border: 1px solid transparent;
+    margin: 2px;
+    padding: 1%;
     text-decoration: none;
     color: inherit;
     margin-left: 5px;
+}
+.headerlinks a:hover{
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
 }

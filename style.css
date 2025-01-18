@@ -79,6 +79,7 @@ header{
             display: block;
             color: #f9faf8;
             font-size: 48px;
+            font-weight: 900;
         }
         #sitesubtxt{
             margin-top: 5%;
@@ -86,23 +87,126 @@ header{
             display: block;
             font-size: 18px;
             color: #e5e7eb;
+            font-weight: 200;
         }
-        #signup2{
+        #signup{
             font-size: 18px;
+            font-weight: 600;
         }
 
 
-.placeholderimg{
-    display: flex;
-    width: 40%;
-    height: 60%;
-    margin-top: 6%;
+    .placeholderimg{
+        display: flex;
+        width: 40%;
+        height: 60%;
+        margin-top: 6%;
+    }
+    #signup a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 1%;
+        background-color: #3882f6;
+    }
+
+/*info part*/
+.information{
+    margin-left: 20%;
+    margin-right: 20%;
 }
-#signup a{
-    text-decoration: none;
-    color: inherit;
-    font-size: 20px;
-    border-radius: 5px;
+.topinfo{
+    margin-top: 3%;
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.infoex{
+    display: inline-block;
+    width: 20%;
+    margin: 2%;
+    text-align: center;
+}
+    .infobox{
+        padding: 20px;
+    }
+        .infobox p{
+            color: #1f2937;
+            padding-top: 10px;
+            font-size: 15px;
+            line-height: 1em;
+            display: table-cell;
+            position: relative;
+        }
+
+        .infobox img{
+            height: 180px;
+            width: 200px;
+        }
+        
+
+
+/*testimonial part*/
+.testimonial{
+    height: 200px;
+    background-color: #e5e7eb;
+}
+    .quote{
+        padding-top: 3%;
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-weight: 100;
+        font-size: 36px;
+        font-style: italic;
+    }
+
+
+/*call to action*/
+.calltoaction{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+    .signuparea{
+        margin: 5%;
+        background-color: #3882f6;
+        border-radius: 5px;
+        width: 80%;
+        height: 150px;
+        color: #e5e7eb;
+    }
+        .signtext{
+            display: flex;
+            padding: 5%;
+        }
+
+            .maintext{
+                margin-right: 40%;
+                font-size: 25px;
+                font-weight: 800;
+                
+            }
+                #subtext{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+    .signupbot{
+        border: 2px solid #f9faf8;
+        border-radius: 5px;
+        padding: 2%;
+        font-weight: 900;
+    }
+        .signupbot a{
+            text-decoration: none;
+            color: inherit;
+        }
+/*footer*/
+footer{
     padding: 1%;
-    background-color: #3882f6;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
 }

@@ -90,10 +90,18 @@ header{
             font-weight: 200;
         }
         #signup{
+            margin-top: 20px;
             font-size: 18px;
             font-weight: 600;
         }
-
+            #signup a{
+                text-decoration: none;
+                color: inherit;
+                font-size: 20px;
+                border-radius: 5px;
+                padding: 1%;
+                background-color: #3882f6;
+            }
 
     .placeholderimg{
         display: flex;
@@ -101,14 +109,7 @@ header{
         height: 60%;
         margin-top: 6%;
     }
-    #signup a{
-        text-decoration: none;
-        color: inherit;
-        font-size: 20px;
-        border-radius: 5px;
-        padding: 1%;
-        background-color: #3882f6;
-    }
+
 
 /*info part*/
 .information{
